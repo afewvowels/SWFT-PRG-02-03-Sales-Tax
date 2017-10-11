@@ -19,4 +19,6 @@ var totalCost: Double
 
 totalCost = (purchase * taxState) + (purchase * taxCounty) + purchase
 
-print(totalCost)
+let formattedCost = String(format: "Total cost: $%.2f", totalCost)
+
+print(formattedCost)
